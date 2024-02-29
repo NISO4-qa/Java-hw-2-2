@@ -9,7 +9,7 @@ public class Main {
         int overall2 = onPhone + amountAdded;
         if (amountAdded < 1000) {
             System.out.println("Сумма на телефоне:" + " " + overall2 + " " + "Бонусов нет");
-        } else  {
+        } else {
             int overall = onPhone + amountAdded + bonus;
             System.out.println("Итоговые бонусы:" + bonus);
             System.out.println("Сумма на телефоне:" + overall);
